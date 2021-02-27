@@ -26,16 +26,10 @@ while True:
     square[:,:,1] = green
     square[:,:,2] = red
 
-   
-    
     cv.imshow("Preview", square)
-    
-
-    
     
     if cv.waitKey(1) &0XFF == ord("q"):
         break
-
 cv.destroyAllWindows()
     
 
